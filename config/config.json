@@ -1,0 +1,12 @@
+{
+    "development": {
+        "baseURL": "https://test-323.herokuapp.com/v1",
+        "authToken": ""
+    },
+    "test": {
+        
+    },
+    "production": {
+
+    }
+}

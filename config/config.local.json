@@ -1,0 +1,11 @@
+{
+    "deveploment": {
+        "baseURL": "https://test-323.herokuapp.com/v1"
+    },
+    "test": {
+        
+    },
+    "production": {
+        
+    }
+}

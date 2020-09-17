@@ -1,0 +1,62 @@
+.all-container {
+    font-family: sans-serif;
+    .time-tag-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .tag-container {
+            & > * {
+                margin: 6px;
+            }
+        }
+    }
+    .time-tracker-container {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        font-family: sans-serif;
+        & > * {
+            margin: 10px
+        }
+        .action-container > *{
+            margin: 6px;
+        }
+    }
+    .title-text {
+        font-size: 20px;
+    }
+    .card-container {
+        display: flex;
+        font-family: sans-serif;
+        & > * {
+            margin: 0 10px;
+        }
+        .card-content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            .card-section > * {
+                margin: 6px;
+            }
+        } 
+        .card-title {
+            font-size: 16px;
+        }
+        .card-title-content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .card-content-title {
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.filter-dialog {
+    .MuiPaper-root {
+        padding: 20px;
+        & > * {
+            margin-top: 6px;
+        }
+    }
+}
